@@ -4,10 +4,10 @@ import csv
 # Datei öffnen und lesen mit "r"
 file1 = open("daten1.csv", "r")
 
-# csv Händler anlegen (writer)
-writer = csv.writer(file1, delimiter = ";")
-writer.writerow(["ID", "Vorname", "Nachname"])
-writer.writerow([1, "Max", "Meier"])
-writer.writerow([2, "Hans", "Schmidt"])
+# csv Händler anlegen (reader)
+reader = csv.reader(file1, delimiter = ";")
+
+for row in reader:
+    print(row)
+
 file1.close()
-#T
