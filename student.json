@@ -1,0 +1,42 @@
+[
+  {
+    "Vorname": "Vincent",
+    "Nachname": "Gundelwein",
+    "Alter": 24,
+    "fächer": [
+      "Programmieren",
+      "IK",
+      "DB"
+    ]
+  },
+  {
+    "Vorname": "Hans",
+    "Nachname": "Hessler",
+    "Alter": 34,
+    "fächer": [
+      "Deutsch",
+      "Englisch",
+      "Spanisch"
+    ]
+  },
+  {
+    "Vorname": "Fred",
+    "Nachname": "Fels",
+    "Alter": 18,
+    "fächer": [
+      "Mathe",
+      "Physik",
+      "Chemie"
+    ]
+  },
+  {
+	  "Vorname": "Gustav",
+	  "Nachname": "Geier",
+	  "Alter": 28,
+	  "fächer": [
+		  "Deutsch",
+		  "Französisch",
+		  "Sport"
+		  ]
+	}
+]

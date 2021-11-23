@@ -1,6 +1,5 @@
 # Importieren des OS - Modules
 import os
-import pygame
 
 # Die Liste aller Dateien des Pfades aufrufen
 path = "/Users/student/music"
@@ -23,31 +22,23 @@ print(songs)
 
 for i in range(len(dir_list)):
     print("{} - {}".format(i,songlist[i]))
-"""
+
 def songselection():
     selection = int(input("Bitte wählen Sie einen Song aus"))
 
     if selection <= songs-1:
         print(dir_list[selection])
-        Filetoplay = path + "/" + (dir_list[selection])
-        print(Filetoplay)
-        #os.system("afplay " + path + "/{}".format(dir_list[selection]))
+
+        if dir_list[selection].endswith(".mp3"):
+            filetoplay = path + "/" + (dir_list[selection])
+            print(filetoplay)
+            os.system("afplay " + path + "/{}".format(dir_list[selection]))
+        else:
+            print("Dieses Format wird nicht unterstützt")
+
     else:
         print("Titel konnte nicht gefunden werden")
         songselection()
 
+
 selection = songselection()
-"""
-
-selection = int(input("Bitte geben Sie eine Zahl ein"))
-Filetoplay = path + "/" + (dir_list[selection])
-print(Filetoplay)
-def pmusic():
-    file = "{}".format(Filetoplay)
-    pygame.init()
-    pygame.mixer.init()
-    pygame.mixer.music.load(file)
-    pygame.mixer.music.play()
-
-
-pmusic()
