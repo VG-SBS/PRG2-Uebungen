@@ -2,7 +2,7 @@
 #jede Zeile ausgeben, in der die erste Spalte den Wert größer gleich 5 hat
 
 import csv
-file1 = open("../iris.csv", "r")
+file1 = open("iris.csv", "r")
 
 reader = csv.reader(file1, delimiter = ",")
 

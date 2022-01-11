@@ -2,7 +2,7 @@
 import csv
 
 # Datei anlegen
-file1 = open("../daten1.csv", "w")
+file1 = open("daten1.csv", "w")
 
 # csv Händler anlegen (writer)
 writer = csv.writer(file1, delimiter = ";")
