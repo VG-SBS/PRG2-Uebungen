@@ -1,0 +1,1 @@
+from verwaltung.kunde import Kunde
