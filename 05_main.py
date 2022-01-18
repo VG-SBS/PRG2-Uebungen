@@ -1,4 +1,4 @@
-from ball import *
+from uebung_klassen_objekte.ball import *
 
 # Objekt erzeugen -> eine Instanz(Objekt) von Ball erzeugen
 
