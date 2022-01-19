@@ -1,11 +1,11 @@
 class Kunde:
     # Konstruktor
-    def __init__(self):
+    def __init__(self, vn, nn, nr):
         print("Konstruktor Kunde wurde aufgerufen")
         #Attribute, private
-        self.__vorname = ""
-        self.__nachname = ""
-        self.__nummer = 0
+        self.__vorname = vn
+        self.__nachname = nn
+        self.__nummer = nr
 
     # Methode definieren, public
     def set_vorname(self, str):
