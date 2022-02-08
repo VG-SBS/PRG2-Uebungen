@@ -5,8 +5,8 @@ from verwaltung import VIPKunde
 # nicht so!!!
 #kunde_a.__vorname = "Hans"
 
-kunde_a = Kunde("Hans", "Meier", 1234)
-kunde_b = Kunde("Gustav", "Geier", 4321)
+#kunde_a = Kunde("Hans", "Meier", 1234)
+#kunde_b = Kunde("Gustav", "Geier", 4321)
 '''
 # ALTER CODE (ÜBUNG)
 
@@ -21,9 +21,6 @@ print(kunde_a.get_nachname())
 print(kunde_a.get_nummer())
 '''
 vip_kunde = VIPKunde("a","b","c","hans")
-print(vip_kunde.get_vorname())
+
 
 #vip_kunde.set_bearbeiter("Hans")
-print(vip_kunde.get_bearbeiter())
-
-print(vip_kunde.get_type())

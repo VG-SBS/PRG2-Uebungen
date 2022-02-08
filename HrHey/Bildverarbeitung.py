@@ -45,5 +45,3 @@ print(bild2)
 #Übung3
 #Verdoppeln Sie die Anzahl der Spalten und Zeilen eines bestehenden Bildes.
 #Die leeren Elemente füllen Sie jeweils mit dem linken, unteren oder links-unteren Element auf.
-
-bild3 = [pixelx2 * 2, pixely2 * 2]
