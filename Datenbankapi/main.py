@@ -23,3 +23,4 @@ player35 = db.setPlayerScore(100,5)
 #Playerscore wird anhand von pk ausgelesen und zurückgegeben
 player35 = db.getPlayerScore(5)
 print(player35)
+
